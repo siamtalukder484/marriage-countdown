@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import patro from '../assets/sifat.png'
 
 const Countdown = () => {
-  const weddingDate = new Date('2025-01-23T00:00:00').getTime();
+  const weddingDate = new Date('2025-01-23T07:00:00').getTime();
   const [timeLeft, setTimeLeft] = useState({});
 
   const calculateTimeLeft = () => {
